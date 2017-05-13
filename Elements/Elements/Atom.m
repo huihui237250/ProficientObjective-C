@@ -21,4 +21,10 @@
     return 0;
 }
 
+-(void)write:(NSFileHandle *)file{
+    NSData *data = [self.chemicalElement dataUsingEncoding:NSUTF8StringEncoding];
+    [file writeData:data];
+    [file closeFile];
+}
+
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		812A677D1E2B6D6200C46CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812A677C1E2B6D6200C46CEB /* main.m */; };
 		812A67851E2B6E7000C46CEB /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 812A67841E2B6E7000C46CEB /* Atom.m */; };
+		818692211EC711D5009061A9 /* Atom+Nuclear.m in Sources */ = {isa = PBXBuildFile; fileRef = 818692201EC711D5009061A9 /* Atom+Nuclear.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		812A677C1E2B6D6200C46CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		812A67831E2B6E7000C46CEB /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
 		812A67841E2B6E7000C46CEB /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
+		8186921E1EC70F41009061A9 /* Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Writer.h; sourceTree = "<group>"; };
+		8186921F1EC711D5009061A9 /* Atom+Nuclear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Atom+Nuclear.h"; sourceTree = "<group>"; };
+		818692201EC711D5009061A9 /* Atom+Nuclear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Atom+Nuclear.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,9 @@
 				812A677C1E2B6D6200C46CEB /* main.m */,
 				812A67831E2B6E7000C46CEB /* Atom.h */,
 				812A67841E2B6E7000C46CEB /* Atom.m */,
+				8186921E1EC70F41009061A9 /* Writer.h */,
+				8186921F1EC711D5009061A9 /* Atom+Nuclear.h */,
+				818692201EC711D5009061A9 /* Atom+Nuclear.m */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818692211EC711D5009061A9 /* Atom+Nuclear.m in Sources */,
 				812A67851E2B6E7000C46CEB /* Atom.m in Sources */,
 				812A677D1E2B6D6200C46CEB /* main.m in Sources */,
 			);
@@ -255,6 +263,7 @@
 				812A67821E2B6D6200C46CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
